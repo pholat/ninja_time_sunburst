@@ -4,12 +4,13 @@ from __future__ import annotations
 from dataclasses import dataclass
 import json
 import plotly.express as px
+import plotly.graph_objects as go
 from typing import Union, List
 from treelib import Tree, Node
 
 
-def load():
-    with open("lol.json") as f:
+def load(name):
+    with open(name) as f:
         return json.load(f)
 
 
@@ -36,17 +37,22 @@ class Data:
 
 
 if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser(description='generate sunburst of file')
+    parser.add_argument('--file', dest='file', help='json file to load', required=True)
+    args = parser.parse_args()
+
     root = Tree()
     total = root.create_node('total', 'total', data=Data())
 
     def keygen(x: List[str], y):
-        return '.'.join(x[:y + 1])
+        return '|'.join(x[:y + 1])
 
     # load targets to nodes
-    for val in load():
+    for val in load(args.file):
         el = Entry(**val)
         if ' ' in el.name:
-            # WIP ignore shitty targets with ` ` in name
+            # NOTE ignore targets with ` ` in name
             continue
 
         branches = el.name.split('/')
@@ -65,24 +71,19 @@ if __name__ == "__main__":
 
     # print(root.to_json(with_data=False))
 
-    data = {"character": [], "parent": [], "value": []}
+    data = {"ids": [], "labels": [], "parents": [], "values": []}
     for node in root.expand_tree():
         node = root[node]
-        character = node.identifier
+        label = node.identifier.split('|')[-1]
+        id = node.identifier
         pre = root.parent(node.identifier)
         parent = pre.identifier if pre is not None else ""
         value = node.data.data if type(node.data.data) is int else node.data.data.dur
-        # print("------------------------------")
-        # print(f": {character} : {parent} : {value}")
-        # print("------------------------------")
-        data["character"].append(character)
-        data["parent"].append(parent)
-        data["value"].append(value)
+        data["labels"].append(label)
+        data["ids"].append(id)
+        data["parents"].append(parent)
+        data["values"].append(value)
 
-    fig = px.sunburst(
-        data,
-        names='character',
-        parents='parent',
-        values='value',
-    )
+    fig = go.Figure(go.Sunburst(**data))
+    fig.update_layout(margin = dict(t=0, l=0, r=0, b=0))
     fig.show()
