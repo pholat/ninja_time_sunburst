@@ -1,0 +1,572 @@
+[
+    {
+        "name": "products/PurePhone/PurePhone.img, /home/pholat/workspace/mudita/OS/build-PurePhone-rt1051-RelWithDebInfo/products/PurePhone/PurePhone.img",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 778997000,
+        "dur": 6447000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "products/PurePhone/PurePhone-version.json, /home/pholat/workspace/mudita/OS/build-PurePhone-rt1051-RelWithDebInfo/products/PurePhone/PurePhone-version.json",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 778963000,
+        "dur": 34000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "sysroot/sys/current/PurePhone-boot.bin, /home/pholat/workspace/mudita/OS/build-PurePhone-rt1051-RelWithDebInfo/sysroot/sys/current/PurePhone-boot.bin",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 778953000,
+        "dur": 10000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "PurePhone.elf",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 753722000,
+        "dur": 25231000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libapplication-phonebook.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 749925000,
+        "dur": 3797000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libappmgr.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 753223000,
+        "dur": 124000,
+        "pid": 0,
+        "tid": 1,
+        "args": {}
+    },
+    {
+        "name": "lib/libapplication-notes.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 749587000,
+        "dur": 3661000,
+        "pid": 0,
+        "tid": 2,
+        "args": {}
+    },
+    {
+        "name": "lib/libevtmgr.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 753142000,
+        "dur": 81000,
+        "pid": 0,
+        "tid": 1,
+        "args": {}
+    },
+    {
+        "name": "lib/libdb.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 751208000,
+        "dur": 1938000,
+        "pid": 0,
+        "tid": 3,
+        "args": {}
+    },
+    {
+        "name": "lib/libsys.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 751211000,
+        "dur": 1931000,
+        "pid": 0,
+        "tid": 1,
+        "args": {}
+    },
+    {
+        "name": "lib/libpure-time.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 751302000,
+        "dur": 1810000,
+        "pid": 0,
+        "tid": 4,
+        "args": {}
+    },
+    {
+        "name": "lib/libapplication-call.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 749223000,
+        "dur": 2088000,
+        "pid": 0,
+        "tid": 5,
+        "args": {}
+    },
+    {
+        "name": "lib/libalarms.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 750394000,
+        "dur": 908000,
+        "pid": 0,
+        "tid": 4,
+        "args": {}
+    },
+    {
+        "name": "lib/libapplication-music-player.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 749226000,
+        "dur": 2049000,
+        "pid": 0,
+        "tid": 6,
+        "args": {}
+    },
+    {
+        "name": "lib/libapplication-calllog.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 749224000,
+        "dur": 1987000,
+        "pid": 0,
+        "tid": 1,
+        "args": {}
+    },
+    {
+        "name": "lib/libapplication-meditation.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 749225000,
+        "dur": 1983000,
+        "pid": 0,
+        "tid": 3,
+        "args": {}
+    },
+    {
+        "name": "lib/libapplication-calculator.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 749222000,
+        "dur": 1172000,
+        "pid": 0,
+        "tid": 4,
+        "args": {}
+    },
+    {
+        "name": "lib/libplatform.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 749221000,
+        "dur": 704000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libservice-fileindexer.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 749222000,
+        "dur": 365000,
+        "pid": 0,
+        "tid": 2,
+        "args": {}
+    },
+    {
+        "name": "lib/libtag.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 748689000,
+        "dur": 532000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libusb_stack.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 748059000,
+        "dur": 630000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libboard.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 747874000,
+        "dur": 184000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libsys-manager.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 747568000,
+        "dur": 306000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libmodule-vfs.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 747266000,
+        "dur": 302000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libmodule-gui.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 745069000,
+        "dur": 2196000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libmodule-db.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 742765000,
+        "dur": 2304000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libmodule-cellular.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 742037000,
+        "dur": 728000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libmodule-audio.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 741542000,
+        "dur": 495000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libaudio-rt1051.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 741373000,
+        "dur": 169000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libtagsfetcher.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 741339000,
+        "dur": 34000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libmodule-services.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 741293000,
+        "dur": 46000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libservice-antenna.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 741163000,
+        "dur": 130000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libservice-appmgr.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 740149000,
+        "dur": 1014000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libservice-audio.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 740069000,
+        "dur": 80000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libservice-bluetooth.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 739945000,
+        "dur": 123000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libservice-cellular.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 738134000,
+        "dur": 1811000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libservice-db.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 737708000,
+        "dur": 426000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libservice-desktop.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 737341000,
+        "dur": 367000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libdesktop-endpoint-base.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 737291000,
+        "dur": 50000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libdesktop-endpoints-common.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 736500000,
+        "dur": 790000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libservice-eink.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 736269000,
+        "dur": 231000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libservice-evtmgr.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 736022000,
+        "dur": 247000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libservice-gui.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 735899000,
+        "dur": 123000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libservice-time.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 735464000,
+        "dur": 435000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libservice-time-api.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 735425000,
+        "dur": 39000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libmodule-apps.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 733998000,
+        "dur": 1427000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libapps-common.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 730758000,
+        "dur": 3240000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libapplication-calendar.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 730670000,
+        "dur": 88000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libapplication-desktop.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 728580000,
+        "dur": 2090000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libapplication-messages.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 728001000,
+        "dur": 579000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libapplication-settings.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 722819000,
+        "dur": 5182000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "products/PurePhone/sys/CMakeFiles/sys.dir/SystemManager.cpp.obj",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 716269000,
+        "dur": 9430000,
+        "pid": 0,
+        "tid": 1,
+        "args": {}
+    },
+    {
+        "name": "lib/libapplication-special-input.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 722677000,
+        "dur": 142000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libmodule-bluetooth.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 722365000,
+        "dur": 311000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libapp.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 722340000,
+        "dur": 25000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "lib/libdesktop-endpoints-product.a",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 722271000,
+        "dur": 69000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    },
+    {
+        "name": "products/PurePhone/services/desktop/endpoints/CMakeFiles/desktop-endpoints-product.dir/messages/MessageHelper.cpp.obj",
+        "cat": "targets",
+        "ph": "X",
+        "ts": 709526000,
+        "dur": 12745000,
+        "pid": 0,
+        "tid": 0,
+        "args": {}
+    }
+]
